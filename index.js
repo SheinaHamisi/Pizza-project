@@ -159,6 +159,7 @@ $("form").submit(function(event){
         deliveryFee = 0; 
     }else if (orderType === "delivery"){
         deliveryFee = 250
+        prompt('where should we send your delivery?')
     }
 
     $("#order-summary").text("Order Summary");
