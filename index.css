@@ -11,6 +11,7 @@
 
 #logo {
     width: 180px;
+    margin-top: 40px;
 }
 
 #logodiv {
@@ -40,7 +41,7 @@
 }
 
 #navbar>button {
-    background-color: rgb(5, 167, 5);
+    background-color: #7CA22D;
     width: 170px;
     height: 48px;
     border-radius: 24px;
