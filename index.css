@@ -64,6 +64,15 @@
     font-weight: bold;
 }
 
+.radio-buttons{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#barb{
+    width: 100%;
+}
+
 .global-button:hover{
     color: #7CA22D;
     background-color: white;

@@ -162,12 +162,47 @@
                         <!-- top row -->
                         <div class="row">
                             <div class="col">
-                                <img src="./IMAGES/barbecuechicken.png" alt="barbecue">
+                                <img src="./IMAGES/barbecuechicken.png" alt="barbecue" id="barb">
                             </div>
                             <div class="col">
-                                
+                                <div class="radio-buttons">
+                                    <!-- Small -->
+                                    <div class="radio form-group">
+                                        <label class="radio-label">
+                                            Small
+                                            <input class="form" type="radio" name="size" value="small" checked id="small">
+                                        </label>
+                                    </div>
+                                    <!-- Medium -->
+                                    <div class="radio form-group">
+                                        <label class="radio-label">
+                                            Medium
+                                            <input class="form" type="radio" name="size" value="medium" id="medium">
+                                        </label>
+                                    </div>
+                                    <!-- Large -->
+                                    <div class="radio form-group">
+                                        <label class="radio-label">
+                                            Large
+                                            <input class="form" type="radio" name="size" value="large" id="large">
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col"></div>
+                            <div class="col">
+                                         <!-- Crust -->
+                                         <div class="radio form-group">
+                                            <label id="select-label">
+                                                Select Crust
+                                                <select name="select-crust" id="select-crust" class="form-control">
+                                                    <option value="cryspy">Cryspy</option>
+                                                    <option value="stuffed">Stuffed</option>
+                                                    <option value="gluten-free">Gluten-free</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </form>
                 </div>
