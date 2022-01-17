@@ -170,7 +170,8 @@
                                     <div class="radio form-group">
                                         <label class="radio-label">
                                             Small
-                                            <input class="form" type="radio" name="size" value="small" checked id="small">
+                                            <input class="form" type="radio" name="size" value="small" checked
+                                                id="small">
                                         </label>
                                     </div>
                                     <!-- Medium -->
@@ -188,26 +189,146 @@
                                         </label>
                                     </div>
                                 </div>
+                                <!-- Pizza Name -->
+                                <div id="pizza-name">
+                                    <h2 id="initial-price-pre-text">Price: <span id="initial-price"></span></h2>
+                                </div>
                             </div>
                             <div class="col">
-                                         <!-- Crust -->
-                                         <div class="radio form-group">
-                                            <label id="select-label">
-                                                Select Crust
-                                                <select name="select-crust" id="select-crust" class="form-control">
-                                                    <option value="cryspy">Cryspy</option>
-                                                    <option value="stuffed">Stuffed</option>
-                                                    <option value="gluten-free">Gluten-free</option>
-                                                </select>
-                                            </label>
-                                        </div>
-                                    </div>
+                                <!-- Crust -->
+                                <div class="radio form-group">
+                                    <label id="select-label">
+                                        Select Crust
+                                        <select name="select-crust" id="select-crust" class="form-control">
+                                            <option value="cryspy">Cryspy</option>
+                                            <option value="stuffed">Stuffed</option>
+                                            <option value="gluten-free">Gluten-free</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second row -->
+                        <div class="row">
+                            <!-- Quantity -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="quantity" id="quantity-label">Quantity</label>
+                                    <input type="number" class="form-control" id="quantity">
+                                </div>
+                            </div>
+
+                            <!-- Type of order -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="order-type-label" id="order-type-label">Order type</label>
+                                    <select class="form-control" name="order-type" id="order-type">
+                                        <option value="delivery">Delivery</option>
+                                        <option value="dine">Dine</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contact details -->
+                        <!-- Name -->
+                        <div class="row">
+                            <!-- First Name -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="quantity" id="first-name-label" class="form-labels">First Name</label>
+                                    <input type="text" class="form-control form-inputs" id="first-name"
+                                        placeholder="Enter first name">
+                                </div>
+                            </div>
+
+                            <!-- Last Name -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="last-name-label" id="last-name-label" class="form-labels">Last
+                                        Name</label>
+                                    <input type="text" class="form-control form-inputs" id="last-name"
+                                        placeholder="Enter last name">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Email and Phone -->
+                        <div class="row">
+                            <!-- Address -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="address" id="address-label" class="form-labels">Address</label>
+                                    <input type="text" class="form-control form-inputs" id="address"
+                                        placeholder="Enter Address">
+                                </div>
+                            </div>
+                            <!-- Phone number -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone-label" id="phone-label" class="form-labels">Phone</label>
+                                    <input type="text" class="form-control form-inputs" id="phone"
+                                        placeholder="Enter phone number">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Submit Buttons -->
+                            <!-- calculate button -->
+                            <div class="col-md-3">
+                                <button class="btn btn-primary" id="calculate">Calculate</button>
+                            </div>
+
+                            <!-- total output -->
+                            <div class="col-md-6">
+                                <p id="total-output"></p>
+                            </div>
+
+                            <!-- Checkout button -->
+                            <div class="col-md-3">
+                                <button class="btn btn-primary" id="checkout">Checkout</button>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 id="order-summary"></h5>
+                            </div>
+                            <div class="col-md-6">
+                                <p id="name-title" class="title">Name: </p>
+                                <p id="name-summary" class="summary"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p id="email-title" class="title">Email:</p>
+                                <p id="email-summary" class="summary"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p id="phone-title" class="title">Phone:</p>
+                                <p id="phone-summary" class="summary"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p id="address-title" class="title">Address:</p>
+                                <p id="address-summary" class="summary"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p id="pizza-title" class="title">Pizza:</p>
+                                <p id="pizza-name-summary" class="summary"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p id="quantity-title" class="title">Quantity:</p>
+                                <p id="quantity-summary" class="summary"></p>
                             </div>
                         </div>
                     </form>
                 </div>
+
             </div>
         </div>
+    </div>
     </div>
 </body>
 
