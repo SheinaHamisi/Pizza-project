@@ -156,7 +156,7 @@ $("form").submit(function(event){
     });
 
     if (orderType === "dine"){
-        deliveryFee = 0;
+        deliveryFee = 0; 
     }else if (orderType === "delivery"){
         deliveryFee = 250
     }
