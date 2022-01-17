@@ -1,4 +1,4 @@
-#hero-section{
+#hero-section {
     background-image: url(IMAGES/pizza4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@
     margin-left: 52px;
 }
 
-.global-button{
+.global-button {
     background-color: #7CA22D;
     width: 170px;
     height: 48px;
@@ -64,58 +64,73 @@
     font-weight: bold;
 }
 
-.radio-buttons{
+.radio-buttons {
     display: flex;
     gap: 12px;
 }
 
-.radio-label{
+.radio-label {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#barb{
+#barb {
     width: 100%;
 }
 
-.global-button:hover{
+#calculate, #checkout {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#submission {
+    display: none;
+}
+
+#total-output{
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.global-button:hover {
     color: #7CA22D;
     background-color: white;
     border: solid #7CA22D 2px;
 }
 
-#hero2>p{
+#hero2>p {
     margin-top: 80px;
- font-size: 136px;
- font-weight: bold;
- padding-left: 200px;
- color: white;
+    font-size: 136px;
+    font-weight: bold;
+    padding-left: 200px;
+    color: white;
 }
 
-#hero2 span{
+#hero2 span {
     color: rgb(250, 160, 86);
 }
 
-#hero2>h5{
+#hero2>h5 {
     font-size: 36px;
     padding-left: 380px;
     color: white;
-   }
-
-#hero2>img{
-width: 100%;
 }
 
-.description{
+#hero2>img {
+    width: 100%;
+}
+
+.description {
     margin-left: 160px;
     margin-right: 20px;
     display: flex;
- 
+
 }
 
-.descriptionparts{
+.descriptionparts {
     width: 30%;
     line-height: 30px;
     color: white;
@@ -123,42 +138,44 @@ width: 100%;
 
 }
 
-#yellow{
+#yellow {
     background-image: url(IMAGES/pizza2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
     padding-top: 450px;
 }
-  .description>p{
-      font-size: 28px;
-  } 
 
-  .descriptionparts>img{
-      max-width: 100%;
-      height: 200px;
-      margin-bottom: 24px;
-  }
+.description>p {
+    font-size: 28px;
+}
 
-  .menupara{
-text-align: center;
-margin-top: 48px;
-font-size: 48px;
-font-style: italic;
-color:  rgb(250, 160, 86);
-font-weight: bold;
-  }
+.descriptionparts>img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 24px;
+}
 
-  #menu img{
-   width: 260px;
-  }
+.menupara {
+    text-align: center;
+    margin-top: 48px;
+    font-size: 48px;
+    font-style: italic;
+    color: rgb(250, 160, 86);
+    font-weight: bold;
+}
 
-  #menu{
-      padding-left: 160px;
-      padding-right: 100px;
-      margin-bottom: 48px;
-  }
-.menurowitems{
+#menu img {
+    width: 260px;
+}
+
+#menu {
+    padding-left: 160px;
+    padding-right: 100px;
+    margin-bottom: 48px;
+}
+
+.menurowitems {
     border: 1px solid white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
